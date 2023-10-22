@@ -13,11 +13,10 @@ main()
         for(int i=3; i>=0; i--){
             Guess[i]=G%10;
             G/=10;
-        }
-        for(int i=3; i>=0; i--){
             Answer[i]=An%10;
             An/=10;
         }
+
         for (int i=0; i<4; i++){
             for (int j=0; j<4; j++){
                 if(Guess[i]==Answer[j])
